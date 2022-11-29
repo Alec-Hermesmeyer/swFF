@@ -1,0 +1,44 @@
+
+
+.home-services{
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    margin-top: 10px;
+}
+.hs-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs-wrapper{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3;
+}
+.hs-left{
+    height: 75%;
+    width: 75%;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.hs-center{
+    height: 75%;
+    width: 75%;
+    background-color: forestgreen;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.hs-right{
+    height: 75%;
+    width: 75%;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 15px;
+}

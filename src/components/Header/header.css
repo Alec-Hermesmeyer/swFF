@@ -1,0 +1,35 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.carousel-img{
+    height: 75vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 5px 15px 25px, inset 15px 30px 50px black;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+.left-arrow-c{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 50px;
+    /* transition: translateY(-50%); */
+    cursor: pointer;
+    user-select: none;
+}
+.right-arrow-c{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    font-size: 50px;
+    /* transition: translateY(-50%); */
+    cursor: pointer;
+    user-select: none;
+}

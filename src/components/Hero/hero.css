@@ -1,0 +1,190 @@
+.hero-section {
+    height: calc(75vh - 20vh);
+    width: 100vw;
+    /* background-image: url(../../assets/rwbRigLogo.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* box-shadow: 8px 8px 12px; */
+
+}
+
+@media screen and (min-width: 1300px) {
+    .hero-section {
+        width: 100vw;
+        height: calc(75vh - 20vh);
+    }
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-wrapper {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 4;
+    }
+
+    .hero-left {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .hero-center {
+        flex: 2;
+        height: 100%;
+        width: 100%;
+        padding-left: 75px;
+
+
+    }
+
+    .hero-right {
+        display: flex;
+        flex: 1;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+}
+
+.hero-container {
+    height: 97%;
+    width: 97%;
+}
+
+.hero-wrapper {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 6;
+
+}
+
+.hero-left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.hero-center {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/rwbRigLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 75px;
+
+
+}
+
+.hero-right {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: -4%;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 390px) {
+   
+    .hero-section {
+        height: calc(75vh - 20vh);
+        max-width: 480px;
+        min-width: 390px;
+        width: 100vw;
+
+    }
+
+    .hero-container {
+        height: 97%;
+        width: 97%;
+    }
+
+    .hero-wrapper {
+        width: 95%;
+        height: 95%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 6;
+
+    }
+
+    .hero-left {
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-center {
+        flex: 1;
+        /* height: 100%;
+        width: 100%; */
+        background-image: url(../../assets/rwbRigLogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px;
+        padding-left: 75px;
+        z-index: 10;
+
+
+    }
+
+    .hero-right {
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-right: -4%;
+        z-index: 1;
+    }
+
+    .hero-left h1{
+        margin-bottom: -13px;
+    }
+    .hero-left p{
+        margin-bottom: -10px;
+    }
+
+}

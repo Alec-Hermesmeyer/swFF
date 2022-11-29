@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+
+
+}
+
+
+.navbar {
+    height: 14vh;
+    border-bottom: 2px solid black;
+    box-shadow: 8px 8px 12px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 4;
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.nav-left {
+    flex: 1;
+    margin-top: 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-center {
+    flex: 2;
+   
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.nav-right a{
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .navbar{
+        height: 14vh;
+        flex: 4;
+        display: none;
+    }
+    
+    
+}
+
+ .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vh; 
+    text-decoration: none;
+    margin-left: -5rem;
+}
+
+
+
+.nav-logo {
+    height: 225px;
+    width: 225px;
+    margin-left: -12%;
+   
+
+} 
+ .nav-link {
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    cursor: pointer;
+
+
+}
+
+
+/* .nav-link:hover,
+.nav-link:hover{
+    color:green;
+}
+.nav-link:hover::after,
+.nav-link:hover.active::after {
+    content: "";
+    width: 7%;
+    height: 4px;
+    background: #000;
+    position: absolute;
+    bottom: 25px;
+    z-index: 100; 
+    margin-right: 200px;
+
+} */

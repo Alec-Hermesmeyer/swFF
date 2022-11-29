@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.contact-page{
+    height: 100vh;
+    width: 100vw;
+}
+.contact-header{
+    height: 14vh;
+    width: 100%;
+}
+/* .card-section{
+    height: 25vh;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3;
+}
+.cs-left{
+    flex: 1;
+}
+.cs-center{
+    flex: 1;
+}
+.cs-right{
+    flex: 1;
+} */
