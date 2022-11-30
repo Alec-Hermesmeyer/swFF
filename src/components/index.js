@@ -9,3 +9,4 @@ export {default as ContactForm} from '../components/Form/Form';
 export {default as Mobile} from '../components/Mobile/Mobile';
 export {default as Dropdown} from '../components/Dropdown/Dropdown';
 export {default as Poloroid} from '../components/Poloroid/Poloroid';
+export {default as useAnalyticsEventTracker} from '../components/GATracker/useAnalyticsEventTracker';

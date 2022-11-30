@@ -3,9 +3,16 @@
 // import { Home } from './pages';
 import { Routes, Route } from 'react-router-dom';
 import { Home, About, Contact, Services, Gallery } from '../src/pages';
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+const TRACKING_ID = "UA-250494401-1"
+ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div className="App">
       <div className='container'>
